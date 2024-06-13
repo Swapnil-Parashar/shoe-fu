@@ -13,7 +13,8 @@ import {
   Profile,
   Search,
   ThankYou,
-  OrderHistory
+  OrderHistory,
+  FAQPage
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
       {
         path:"order-history",
         element: <OrderHistory />
+      },
+      {
+        path:"faq",
+        element: <FAQPage />
       }
     ],
   },

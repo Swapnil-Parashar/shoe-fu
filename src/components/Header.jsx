@@ -54,31 +54,15 @@ const Header = () => {
   }, [loginState]);
 
   return (
-    <>
-      <div className="topbar border-b border-gray-800">
-        <ul>
-          <li>
-            <FaHeadphones className="text-2xl max-sm:text-lg text-accent-content" />
-            <span className="text-2xl max-sm:text-lg text-accent-content">
-              +381 61/123-456
-            </span>
-          </li>
-          <li>
-            <FaRegEnvelope className="text-2xl max-sm:text-lg text-accent-content" />{" "}
-            <span className="text-2xl max-sm:text-lg text-accent-content">
-              support@test.com
-            </span>
-          </li>
-        </ul>
-      </div>
-      <div className="navbar bg-base-100 max-w-7xl mx-auto">
+    <div className="sticky top-0 z-50">
+      <div className="navbar bg-base-100 mx-auto">
         <div className="flex-1">
           <Link
             to="/"
             className="btn btn-ghost normal-case text-2xl font-black text-accent-content"
           >
             <AiFillShopping />
-            Kuzma Clothing & Shoes
+            Shoe-fu
           </Link>
         </div>
         <div className="flex-none">
@@ -189,7 +173,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="navbar-bottom-menu border-y border-gray-800">
+      <div className="navbar-bottom-menu border-y border-gray-800 bg-base-100">
         <div className="drawer">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
@@ -274,7 +258,7 @@ const Header = () => {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

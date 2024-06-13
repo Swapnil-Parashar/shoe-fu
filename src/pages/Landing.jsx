@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/Landing.css";
-import { Hero, ProductElement, Stats } from "../components";
+import { Coupon, Hero, ProductElement, Stats } from "../components";
 import { useLoaderData, useNavigate } from "react-router-dom";
 import axios from "axios";
 
@@ -38,6 +38,12 @@ const Landing = () => {
             />
           ))}
         </div>
+      </div>
+      <div className="coupon-section">
+        <h2 className="text-6xl text-center my-12 max-md:text-4xl text-accent-content">
+          Coupon Codes
+        </h2>
+        <Coupon />
       </div>
     </main>
   );
