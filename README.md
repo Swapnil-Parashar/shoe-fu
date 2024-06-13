@@ -1,30 +1,22 @@
 # Shoe-fu
 
-Welcome to Shoe-fu, the ultimate destination for fashion enthusiasts seeking a sophisticated online shopping experience. This is the project I have made completely alone with my current React.js skills. I created this project for my college exam and also because I wanted to test my current web development skills. Shoe-fu is an innovative e-commerce platform offering a diverse range of clothing and footwear. With a catalog of over a hundred products, my online shop is designed to cater to the varied tastes and preferences of our customers. The website is equipped with user-friendly features to ensure a seamless shopping experience. This repository is home to a comprehensive React.js eCommerce project, showcasing a refined and responsive shopping platform
-tailored for the trendy and style-savvy.
+Welcome to Shoe-fu, the ultimate destination for shoe enthusiasts seeking a sophisticated online shopping experience. This is a project I have developed independently using my current React.js skills, created for a college exam and to test my web development abilities. Shoe-fu is an innovative e-commerce platform offering a diverse range of footwear. With a catalog of over a hundred products, my online shop is designed to cater to the varied tastes and preferences of our customers. The website is equipped with user-friendly features to ensure a seamless shopping experience. This repository showcases a comprehensive React.js eCommerce project, highlighting a refined and responsive shopping platform tailored for the trendy and style-savvy.
 
 # Introduction
 
-Shoe-fu is a fashion eCommerce website design that's built with the modern consumer in mind. Leveraging the power of React.js, I've created an engaging and intuitive platform that stands out in the digital marketplace. My project demonstrates how eCommerce and fashion can merge seamlessly in a digital ecosystem, providing an exceptional user experience from homepage to checkout.
+Shoe-fu is a shoe eCommerce website design that's built with the modern consumer in mind. Leveraging the power of React.js, I've created an engaging and intuitive platform that stands out in the digital marketplace. My project demonstrates how eCommerce and footwear can merge seamlessly in a digital ecosystem, providing an exceptional user experience from homepage to checkout.
 
 # Project Features
 
 - React Ecommerce Frontend: A modern and clean interface that highlights our product catalog with elegance and style.
 - React Ecommerce Filter: An easy-to-use filtering system that allows customers to sort products by category, price, and more.
 - Ecommerce React Website: A full-featured website built on React that exemplifies best practices in web development and design.
-- React Shopping App: More than just a website, a complete shopping application designed for seamless online transactions.
-
-# Customization and Templates
-
-- React Online Shop Template: Utilize my pre-designed templates as a solid foundation for creating your unique online shop.
-- React Ecommerce Theme: My custom theme embodies the latest trends in web aesthetics, providing a chic backdrop for your merchandise.
-- Free React Ecommerce Template: Jumpstart your project with my free template that offers a balance of design and functionality.
 
 # Development Highlights
 
 - Ecommerce Using React: My codebase showcases how React can be leveraged to build dynamic and responsive eCommerce sites.
 - React Ecommerce App: The structure of the application is designed to serve as a robust React eCommerce platform.
-- React Ecommerce Boilerplate: Developers can use this project as a boilerplate, enjoying a pre-configured environment that accelerates development cycles.
+- Ecommerce React Website: A full-featured website built on React that exemplifies best practices in web development and design.
 
 # Instructions
 
@@ -34,14 +26,9 @@ Shoe-fu is a fashion eCommerce website design that's built with the modern consu
 4. The third step is mandatory if you don't have json-server installed on your computer. Open a second terminal write the following: npm install -g json-server
 5. When you do it, you need to open second terminal and run JSON server on port 8080. Just write in the second terminal: json-server --watch src/data/db.json --port 8080
 
-# Have problems while running the app? Here is the recorded video instruction how to run it:
-
-https://www.youtube.com/watch?v=4VGZhDXticc
-
 # Key Features:
 
 - Extensive Product Range: Over 100 distinct clothing and shoe items, catering to a wide array of styles and preferences.
-- User Accounts: Robust login and registration functionality, allowing customers to create and manage their personal accounts.
 - Order Management: Users can view their order history
 - Shopping Cart: A dynamic cart system where customers can add items, adjust quantities, or remove products as needed.
 - Wishlist: Users can curate a list of desired items for future purchase, enhancing the shopping experience.
